@@ -1,0 +1,25 @@
+
+.Header{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 70px;
+    background: #39393A;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 10px #222222;   
+    transition: all 500ms ease;
+}
+
+    .Header:hover{
+        transform: scale(1.05);
+    }
+
+    .Header--Text{
+        font-family: 'Roboto' , sans-serif;
+        text-align: center;
+        line-height: 4rem;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
